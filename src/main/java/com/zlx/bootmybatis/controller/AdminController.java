@@ -7,6 +7,11 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * @PathVariable搜集url的参数
+ * @param是mybatis绑定参数的注解
+ * @requestParam是controller绑定参数的注解
+ */
 @RestController
 public class AdminController {
 
