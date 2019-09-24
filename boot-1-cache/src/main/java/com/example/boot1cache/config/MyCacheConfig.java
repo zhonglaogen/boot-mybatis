@@ -10,6 +10,10 @@ import java.util.Arrays;
 @Configuration
 public class MyCacheConfig {
 
+    /**
+     * 生成的key规则
+     * @return
+     */
     @Bean("myKeyGenerator")
     public KeyGenerator keyGenerator(){
        return new KeyGenerator() {
